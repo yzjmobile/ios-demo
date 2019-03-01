@@ -1,0 +1,25 @@
+{
+  "name": "YZJModule",
+  "version": "0.1.0",
+  "summary": "A short description of YZJAPPModule.",
+  "description": "这是一段描述信息",
+  "homepage": "http://172.20.10.91/quding/11",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1020146724@qq.com": "ding_qu@kingdee.com"
+  },
+  "source": {
+    "git": "http://172.20.10.91/quding/11.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "vendored_frameworks": [
+    "Assets/YZJLogin.framework",
+    "Assets/YZJAPPModule.framework"
+  ]
+}

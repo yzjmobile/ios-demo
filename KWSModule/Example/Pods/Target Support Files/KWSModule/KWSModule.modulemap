@@ -1,0 +1,6 @@
+framework module KWSModule {
+  umbrella header "KWSModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

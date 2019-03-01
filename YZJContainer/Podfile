@@ -1,0 +1,47 @@
+#公有仓库
+source 'https://github.com/CocoaPods/Specs.git'
+
+plugin 'cocoapods-binary'
+
+platform:ios, '8.0'
+use_frameworks!
+
+# ignore all warnings from all pods
+inhibit_all_warnings!
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF'] = 'NO'
+            config.build_settings['ENABLE_BITCODE'] = 'NO'
+            config.build_settings['SWIFT_VERSION'] = '4.0'
+            config.build_settings['ARCHS'] = 'armv7 arm64'
+            if config.name == 'Debug'
+                config.build_settings['OTHER_SWIFT_FLAGS'] = ['$(inherited)', '-Onone']
+                config.build_settings['SWIFT_OPTIMIZATION_LEVEL'] = '-Owholemodule'
+            end
+        end
+    end
+end
+
+target 'YZJContainer' do
+    
+    
+#        pod 'YZJAPPModule', :path => '../YZJAPPModule'
+    #    pod 'YZJLogin', :path => '../YZJLogin'
+    
+#    pod 'YZJLogin', :path => '../github/YZJLogin'
+#    pod 'YZJAPPModule', :path => '../github/YZJAPPModule'
+
+#    pod 'YZJLogin',:git => 'http://172.20.10.91/quding/22.git', :tag => '0.1.2', :binary => true
+#    pod 'YZJAPPModule',:git => 'http://172.20.10.91/quding/11.git', :tag => '0.1.0'
+    #, :binary => true
+    
+    pod 'KWSModule', :path => '../KWSModule'
+    
+    pod 'YZJLogin',:git => 'https://github.com/yzjmobile/YZJLogin.git', :tag => '0.0.1'
+    pod 'YZJAPPModule',:git => 'https://github.com/yzjmobile/YZJAPPModule.git', :tag => '0.0.1'
+    
+    pod 'Masonry'
+    pod 'AFNetworking'
+end

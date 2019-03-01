@@ -1,0 +1,23 @@
+{
+  "name": "YZJAPPModule",
+  "version": "0.1.0",
+  "summary": "A short description of YZJAPPModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1020146724@qq.com/YZJAPPModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1020146724@qq.com": "ding_qu@kingdee.com"
+  },
+  "source": {
+    "git": "https://github.com/1020146724@qq.com/YZJAPPModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "source_files": "YZJAPPModule/Classes/**/*"
+}

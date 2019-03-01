@@ -1,0 +1,22 @@
+PODS:
+  - KWSModule (0.1.0):
+    - YZJAPPModule
+  - YZJAPPModule (0.1.0)
+
+DEPENDENCIES:
+  - KWSModule (from `../`)
+  - YZJAPPModule (from `../../YZJAPPModule`)
+
+EXTERNAL SOURCES:
+  KWSModule:
+    :path: "../"
+  YZJAPPModule:
+    :path: "../../YZJAPPModule"
+
+SPEC CHECKSUMS:
+  KWSModule: c4eeee9d41e08bd186ca9d318d2a914f4f892776
+  YZJAPPModule: 4c563be0b73b91c3f89e9f1d79961923a2812428
+
+PODFILE CHECKSUM: f2a85bb0691cae324530d146c9a9c663e07eedf4
+
+COCOAPODS: 1.5.3

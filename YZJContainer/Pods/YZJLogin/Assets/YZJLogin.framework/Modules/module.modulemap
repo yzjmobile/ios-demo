@@ -1,0 +1,6 @@
+framework module YZJLogin {
+  umbrella header "YZJLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - KWSModule (0.1.0):
+    - YZJAPPModule
+  - Masonry (1.1.0)
+  - YZJAPPModule (0.1.0)
+  - YZJLogin (0.1.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - KWSModule (from `../KWSModule`)
+  - Masonry
+  - YZJAPPModule (from `https://github.com/yzjmobile/YZJAPPModule.git`, tag `0.0.1`)
+  - YZJLogin (from `https://github.com/yzjmobile/YZJLogin.git`, tag `0.0.1`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+
+EXTERNAL SOURCES:
+  KWSModule:
+    :path: "../KWSModule"
+  YZJAPPModule:
+    :git: https://github.com/yzjmobile/YZJAPPModule.git
+    :tag: 0.0.1
+  YZJLogin:
+    :git: https://github.com/yzjmobile/YZJLogin.git
+    :tag: 0.0.1
+
+CHECKOUT OPTIONS:
+  YZJAPPModule:
+    :git: https://github.com/yzjmobile/YZJAPPModule.git
+    :tag: 0.0.1
+  YZJLogin:
+    :git: https://github.com/yzjmobile/YZJLogin.git
+    :tag: 0.0.1
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  KWSModule: c4eeee9d41e08bd186ca9d318d2a914f4f892776
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YZJAPPModule: 0987e148a27131ff2bd53032240fd511a74997da
+  YZJLogin: 997406b3779f669311f998d2d18233758885fe5c
+
+PODFILE CHECKSUM: ac91049235cc70ce7f00673b21d4f3cc9920b180
+
+COCOAPODS: 1.5.3

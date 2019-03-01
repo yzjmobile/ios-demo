@@ -1,0 +1,6 @@
+framework module Pods_YZJContainer {
+  umbrella header "Pods-YZJContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}

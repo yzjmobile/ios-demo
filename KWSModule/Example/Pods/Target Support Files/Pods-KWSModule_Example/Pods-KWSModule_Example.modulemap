@@ -1,0 +1,6 @@
+framework module Pods_KWSModule_Example {
+  umbrella header "Pods-KWSModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
